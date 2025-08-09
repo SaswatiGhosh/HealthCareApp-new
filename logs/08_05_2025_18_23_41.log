@@ -1,0 +1,2 @@
+[2025-08-05 18:23:41,306] root -INFO - unsupported operand type(s) for +: 'int' and 'str'
+[2025-08-05 18:23:41,307] root -ERROR - Error occured in python script :[C:\Users\saswati\Desktop\MLOps_DevOps\HealthCareApp\demo.py] at line_number: [6] : unsupported operand type(s) for +: 'int' and 'str'

@@ -1,5 +1,5 @@
 import os
-from src.constants import *
+from backend.constants import *
 from dataclasses import dataclass
 from datetime import datetime
 

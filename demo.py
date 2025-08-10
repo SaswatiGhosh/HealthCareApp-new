@@ -1,5 +1,5 @@
-from src.logger import logging
-from src.exception import MyException
+from backend.logger import logging
+from backend.exception import MyException
 import sys
 
 try:

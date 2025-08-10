@@ -2,12 +2,12 @@ import sys, os
 from pandas import DataFrame
 from sklearn.model_selection import train_test_split
 
-from src.entity.config_entity import DataIngestionConfig
-from src.entity.artifact_entity import DataIngestionArtifact
-from src.constants import DATA_INGESTION_TRAIN_TEST_SPLIT_RATIO
-from src.exception import MyException
-from src.logger import logging
-from src.data_access.proj1_data import Proj1Data
+from backend.entity.config_entity import DataIngestionConfig
+from backend.entity.artifact_entity import DataIngestionArtifact
+from backend.constants import DATA_INGESTION_TRAIN_TEST_SPLIT_RATIO
+from backend.exception import MyException
+from backend.logger import logging
+from backend.data_access.proj1_data import Proj1Data
 
 class DataIngestion:
     def __init__(self, data_ingestion_config:DataIngestionConfig= DataIngestionConfig()):

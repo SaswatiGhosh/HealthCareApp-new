@@ -3,7 +3,6 @@ LICENSE copy
 README.md
 pyproject.toml
 setup.py
-advanced_healthcare/ios/Flutter/ephemeral/flutter_lldb_helper.py
 backend/__init__.py
 backend/template.py
 backend.egg-info/PKG-INFO

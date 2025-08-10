@@ -32,5 +32,6 @@ DATA_INGESTION_FEATURE_STORE_DIR:str= "feature_store"
 DATA_INGESTION_INGESTED_DIR:str="ingested"
 DATA_INGESTION_TRAIN_TEST_SPLIT_RATIO: float=0.2
 
-
-
+MODEL_BUCKET_NAME="mydataset11"
+DATASET_FILE_NAME="new_merged_dataset.csv"
+DATASET_URL="https://mydataset11.s3.us-east-1.amazonaws.com"

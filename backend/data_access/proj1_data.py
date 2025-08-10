@@ -5,7 +5,7 @@ from typing import Optional
 from backend.logger import logging
 
 from backend.configuration.aws_connection   import S3Client
-from backend.constants import DATABASE_NAME
+from backend.constants import DATASET_FILE_NAME
 
 from backend.exception import MyException
 
@@ -13,8 +13,8 @@ class Proj1Data:
     def __init__(self) -> None:
         # print(DATABASE_NAME)
         try:
-            self.s3client = S3Client(database_name=DATABASE_NAME)
-            # print(self.mongo_client.database_name)
+            self.s3client = S3Client(dataset_file_name=DATASET_FILE_NAME)
+            # print(self.s3client.)
         except Exception as e:
             raise MyException(e,sys)
         

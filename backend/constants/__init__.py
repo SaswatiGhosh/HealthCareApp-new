@@ -24,6 +24,7 @@ REGION_NAME = "us-east-1"
 
 
 
+
 #Data ingestion related constant start with DATA_INGESTION VAR NAME
 
 DATA_INGESTION_COLLECTION_NAME:str="Proj1-Data"

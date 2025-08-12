@@ -20,7 +20,7 @@ class DataIngestion:
         try:
             logging.info(f"Exporting data from mongodb")
             my_data=Proj1Data() #
-            dataframe=my_data.export_collection_as_DataFrame(collection_name=self.data_ingestion_config.collection_name)
+            dataframe=my_data.export_collection_as_DataFrame(bucket_name=self.data_ingestion_config.collection_name)
             logging.info(f"Dataframe created with shape {dataframe.shape}")
             feature_store_file_path=self.data_ingestion_config.feature_store_file_path
             dir_path=os.path.dirname(feature_store_file_path)
